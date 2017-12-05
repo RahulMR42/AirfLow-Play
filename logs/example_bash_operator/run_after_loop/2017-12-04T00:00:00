@@ -1,0 +1,8 @@
+[2017-12-05 22:21:24,936] {models.py:167} INFO - Filling up the DagBag from /usr/local/lib/python2.7/dist-packages/airflow/example_dags/example_bash_operator.py
+[2017-12-05 22:21:25,436] {base_task_runner.py:112} INFO - Running: ['bash', '-c', u'airflow run example_bash_operator run_after_loop 2017-12-04T00:00:00 --job_id 2 --raw -sd DAGS_FOLDER/example_dags/example_bash_operator.py']
+[2017-12-05 22:21:26,300] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:26,300] {__init__.py:57} INFO - Using executor SequentialExecutor
+[2017-12-05 22:21:26,490] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:26,489] {driver.py:123} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2017-12-05 22:21:26,538] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:26,537] {driver.py:123} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2017-12-05 22:21:26,902] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:26,902] {models.py:167} INFO - Filling up the DagBag from /root/airflow/dags/example_dags/example_bash_operator.py
+[2017-12-05 22:21:27,312] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:27,311] {models.py:1120} INFO - Dependencies not met for <TaskInstance: example_bash_operator.run_after_loop 2017-12-04 00:00:00 [None]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 3 non-success(es). upstream_tasks_state={'successes': 0, 'failed': 0, 'upstream_failed': 0, 'skipped': 0, 'done': 0}, upstream_task_ids=['runme_0', 'runme_1', 'runme_2']
+[2017-12-05 22:21:30,450] {jobs.py:2083} INFO - Task exited with return code 0

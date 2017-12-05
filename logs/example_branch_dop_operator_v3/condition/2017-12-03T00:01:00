@@ -1,0 +1,1 @@
+[2017-12-05 22:21:10,950] {models.py:167} INFO - Filling up the DagBag from /usr/local/lib/python2.7/dist-packages/airflow/example_dags/example_branch_python_dop_operator_3.py

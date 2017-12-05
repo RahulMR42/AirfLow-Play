@@ -1,0 +1,22 @@
+[2017-12-05 22:19:51,520] {models.py:167} INFO - Filling up the DagBag from /usr/local/lib/python2.7/dist-packages/airflow/example_dags/example_bash_operator.py
+[2017-12-05 22:19:52,030] {base_task_runner.py:112} INFO - Running: ['bash', '-c', u'airflow run example_bash_operator runme_2 2017-12-04T00:00:00 --job_id 9 --raw -sd DAGS_FOLDER/example_dags/example_bash_operator.py']
+[2017-12-05 22:19:52,579] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:52,578] {__init__.py:57} INFO - Using executor SequentialExecutor
+[2017-12-05 22:19:52,725] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:52,725] {driver.py:123} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2017-12-05 22:19:52,770] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:52,770] {driver.py:123} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2017-12-05 22:19:53,116] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:53,115] {models.py:167} INFO - Filling up the DagBag from /root/airflow/dags/example_dags/example_bash_operator.py
+[2017-12-05 22:19:53,542] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:53,542] {models.py:1126} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_2 2017-12-04 00:00:00 [queued]>
+[2017-12-05 22:19:53,545] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:53,545] {models.py:1126} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_2 2017-12-04 00:00:00 [queued]>
+[2017-12-05 22:19:53,545] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:53,545] {models.py:1318} INFO - 
+[2017-12-05 22:19:53,546] {base_task_runner.py:95} INFO - Subtask: --------------------------------------------------------------------------------
+[2017-12-05 22:19:53,546] {base_task_runner.py:95} INFO - Subtask: Starting attempt 1 of 1
+[2017-12-05 22:19:53,546] {base_task_runner.py:95} INFO - Subtask: --------------------------------------------------------------------------------
+[2017-12-05 22:19:53,546] {base_task_runner.py:95} INFO - Subtask: 
+[2017-12-05 22:19:53,658] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:53,657] {models.py:1342} INFO - Executing <Task(BashOperator): runme_2> on 2017-12-04 00:00:00
+[2017-12-05 22:19:53,687] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:53,687] {bash_operator.py:71} INFO - tmp dir root location: 
+[2017-12-05 22:19:53,687] {base_task_runner.py:95} INFO - Subtask: /tmp
+[2017-12-05 22:19:53,690] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:53,689] {bash_operator.py:80} INFO - Temporary script location :/tmp/airflowtmp3FT5v7//tmp/airflowtmp3FT5v7/runme_2es10zX
+[2017-12-05 22:19:53,690] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:53,689] {bash_operator.py:81} INFO - Running command: echo "example_bash_operator__runme_2__20171204" && sleep 1
+[2017-12-05 22:19:53,693] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:53,693] {bash_operator.py:90} INFO - Output:
+[2017-12-05 22:19:53,694] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:53,694] {bash_operator.py:94} INFO - example_bash_operator__runme_2__20171204
+[2017-12-05 22:19:54,708] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:19:54,707] {bash_operator.py:97} INFO - Command exited with return code 0
+[2017-12-05 22:19:57,032] {jobs.py:2083} INFO - Task exited with return code 0

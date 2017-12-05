@@ -1,0 +1,19 @@
+[2017-12-05 22:21:00,389] {models.py:167} INFO - Filling up the DagBag from /usr/local/lib/python2.7/dist-packages/airflow/example_dags/example_branch_operator.py
+[2017-12-05 22:21:00,900] {base_task_runner.py:112} INFO - Running: ['bash', '-c', u'airflow run example_branch_operator branching 2017-12-03T00:00:00 --job_id 18 --raw -sd DAGS_FOLDER/example_dags/example_branch_operator.py']
+[2017-12-05 22:21:01,447] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:01,446] {__init__.py:57} INFO - Using executor SequentialExecutor
+[2017-12-05 22:21:01,600] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:01,599] {driver.py:123} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2017-12-05 22:21:01,645] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:01,645] {driver.py:123} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2017-12-05 22:21:01,975] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:01,975] {models.py:167} INFO - Filling up the DagBag from /root/airflow/dags/example_dags/example_branch_operator.py
+[2017-12-05 22:21:02,374] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:02,374] {models.py:1126} INFO - Dependencies all met for <TaskInstance: example_branch_operator.branching 2017-12-03 00:00:00 [queued]>
+[2017-12-05 22:21:02,381] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:02,381] {models.py:1126} INFO - Dependencies all met for <TaskInstance: example_branch_operator.branching 2017-12-03 00:00:00 [queued]>
+[2017-12-05 22:21:02,381] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:02,381] {models.py:1318} INFO - 
+[2017-12-05 22:21:02,382] {base_task_runner.py:95} INFO - Subtask: --------------------------------------------------------------------------------
+[2017-12-05 22:21:02,382] {base_task_runner.py:95} INFO - Subtask: Starting attempt 1 of 1
+[2017-12-05 22:21:02,382] {base_task_runner.py:95} INFO - Subtask: --------------------------------------------------------------------------------
+[2017-12-05 22:21:02,382] {base_task_runner.py:95} INFO - Subtask: 
+[2017-12-05 22:21:02,550] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:02,550] {models.py:1342} INFO - Executing <Task(BranchPythonOperator): branching> on 2017-12-03 00:00:00
+[2017-12-05 22:21:02,562] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:02,562] {python_operator.py:81} INFO - Done. Returned value was: branch_a
+[2017-12-05 22:21:02,563] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:02,562] {python_operator.py:106} INFO - Following branch branch_a
+[2017-12-05 22:21:02,563] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:02,562] {python_operator.py:107} INFO - Marking other directly downstream tasks as skipped
+[2017-12-05 22:21:02,671] {base_task_runner.py:95} INFO - Subtask: [2017-12-05 22:21:02,671] {python_operator.py:119} INFO - Done.
+[2017-12-05 22:21:05,935] {jobs.py:2083} INFO - Task exited with return code 0
